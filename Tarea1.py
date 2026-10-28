@@ -19,4 +19,13 @@ print (type(promedio))
 """
 Este es un comentario de varias lineas
 """
-print ("Resultado de la suma:" , a, b, "es" , suma)
+print ("Suma", suma, "A", a, "B" ,b, sep ="*")
+
+nombre = input("Ingrese su nombre: ")
+print("Hola, " + nombre)
+
+edad = input("Ingrese su edad: ")
+print("Su edad es: " + edad)
+
+saldo = float(input("Ingrese su saldo: "))
+print("Su saldo es:", saldo)
